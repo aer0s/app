@@ -19,7 +19,11 @@ The `app` __CLI__ is shamelessly based on pacman and commited to iplimenting the
 
 > there should be one—and preferably only one—obvious way to do it
 
-`app [method] [options]  [package name(s)]`
+__Useage:__ 
+```bash
+$ app [operation] [options] [package name(s)]
+```
+
 Operations | Type | Description
 --- | --- | ---
 `-S`,`--sync` | _flag_ | (re)Installs list of packages
@@ -36,7 +40,8 @@ Options | Type | Description
 At this point, the __CLI__ is only partially implimented. The design goal is to completley mirror the pacman cli, but this pacman cli is extensive. Additional features will be added as needed.
 
 ## TODO
-- Make search respect and parse package-manager namespace notation
+- Finish flatpak manager
+- Make managers autoload
 - Add AppImage package-manager, this is not a wrapper but a full implimentation
 - Add more native system package-manager wrappers
 - Expand __CLI__ to include more options
