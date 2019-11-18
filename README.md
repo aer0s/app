@@ -1,4 +1,4 @@
-# Aplication Package-manager Proxy (APP)
+# Aplication Package-management Proxy (APP)
 __APP__ is an extensible simple cli proxy wrapper for existing package-manager tools. It facilites interation with multiple seperate package-managers through a single cli interface.
 
 ## Why do I need this?
