@@ -19,7 +19,7 @@ The `app` __CLI__ is shamelessly based on pacman and commited to iplimenting the
 
 > there should be one—and preferably only one—obvious way to do it
 
-__Useage:__ 
+__Usage:__ 
 ```bash
 $ app [operation] [options] [package name(s)]
 ```
