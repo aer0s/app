@@ -17,7 +17,7 @@ terminaltables = "*"
 
 [scripts]
 app = "python cli.py"
-build = "python -m nuitka --follow-imports --include-plugin-directory='package_manager' --standalone --show-progress app.py"
+build = "python -m nuitka --follow-imports --include-plugin-directory='package_manager' --standalone --show-progress cli.py"
 repl="ptpython"
 
 [requires]

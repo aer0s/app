@@ -1,4 +1,4 @@
 Pipfile.lock
 __pycache__
-app.build
+cli.build
 .vscode
