@@ -16,7 +16,7 @@ In theory... any! New package manager interfaces are added by sub-classing the _
 - DNF
 
 ## CLI Style, Operations and Options
-The `app` __CLI__ is shamelessly based on pacman and committed to implementing the Python design philosophy with regard to package management.
+The `app` __CLI__ is shamelessly inspired by pacman and committed to implementing the Python design philosophy with regard to package management.
 
 > there should be one—and preferably only one—obvious way to do it
 
